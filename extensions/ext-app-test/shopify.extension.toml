@@ -1,0 +1,8 @@
+type = "pos_ui_extension"
+name = "ext-app-test"
+description = "ext-app-test"
+
+extension_points = [
+  'pos.home.tile.render',
+  'pos.home.modal.render'
+]
